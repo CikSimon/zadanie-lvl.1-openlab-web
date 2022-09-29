@@ -1,0 +1,26 @@
+
+body{
+    background-color: white ;
+}
+
+.introductory-text{
+    padding-left: 50px;
+    font-family: SF Pro Display;
+    font-size: 37px;
+    max-width: 500px;
+}
+
+.below-main-text{
+    font-size: 15px;
+}
+
+
+header{
+    background-color: rgba(46, 114, 202, 0.836);
+}
+
+.Why-OpenLab{
+    text-align:center;
+    font-size: 30px;
+    
+}
