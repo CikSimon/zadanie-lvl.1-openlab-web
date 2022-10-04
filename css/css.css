@@ -4,6 +4,10 @@ body{
     font-family: sans-serif;
 }
 
+header {
+    background-color: rgba(4, 111, 250, 0.774);
+}
+
 .introductory-text{
     padding-left: 50px;
     font-family: sans-serif;
@@ -15,30 +19,55 @@ body{
 
 .below-main-text{
     font-size: 15px;
-    max-width: 500px;
+    max-width: 450px;
+    padding-left: 50px;
+    color: white;
 }
 
 
-header{
-    background-color: rgba(4, 111, 250, 0.774);
-}
-
-/* main manu */
+/* main screen */
 
 .main-picture{
-    max-width: 450px;
+    max-width: 600px;
+    margin-top: -250px;
+    margin-left: 600px;
+}
+
+.introduction{
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+.openlab-menu-text{
+    margin-top: -19px;
+    margin-left: 300px;
+    
+    
+}
+
+
+.circle{
+    max-width: 400px;
+    margin-left: 1280px;
     margin-top: -200px;
-    margin-left: 900px;
 }
 
-.Why-OpenLab {
+.work-with-us{
+    background-color: rgba(4, 111, 250, 0.774);
+    margin-top: - 10px;
+}
+
+/* Why openlab */
+
+.why-openlab {
     text-align: center;
-    font-size: 30px;
-    margin-top: 150px;
+    font-size: 40px;
+    margin-top: -100px;
+
 
 }
 
-.Why-OpenLab-text {
+.why-openlab-text {
     text-align: center;
     max-width: 1100px;
     margin-left: auto;
@@ -48,16 +77,16 @@ header{
     font-family: sans-serif;
 }
 
-.introduction{
-    margin-top: 80px;
+.social-development{
     margin-left: 250px;
+    margin-top: 50px;
+    font-size: 20px;
+
 }
 
-.OpenLab-menu-text{
-    margin-top: -19px;
-    margin-left: 300px;
-    
+.social-development-text{
+    margin-left: 250px;
+    text-align: left;
+    max-width: 350px;
 }
-
-
 
