@@ -4,8 +4,8 @@ body{
     font-family: sans-serif;
 }
 
-header {
-    background-color: rgba(4, 111, 250, 0.774);
+.main-page{
+    background-color: #3597ff;
 }
 
 .introductory-text{
@@ -77,12 +77,14 @@ header {
     font-family: sans-serif;
 }
 
-.social-development{
+.social-development {
     margin-left: 250px;
     margin-top: 50px;
     font-size: 20px;
 
 }
+
+
 
 .social-development-text{
     margin-left: 250px;
@@ -90,3 +92,26 @@ header {
     max-width: 350px;
 }
 
+.learning-by-doing{
+    text-align: center;
+    margin-top: -97px;
+    font-size: 20px;
+}
+
+.learning-by-doing-text{
+    text-align: left;
+    margin-left: 660px;
+    max-width: 350px;
+}
+
+.talent-development{
+    margin-left: 1050px;
+    margin-top: -93px;
+    font-size: 20px;
+}
+
+.talent-development-text{
+    text-align: left;
+    margin-left: 1050px;
+    max-width: 350px;
+}
