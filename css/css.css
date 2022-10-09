@@ -8,6 +8,9 @@ body{
     background-color: #3597ff;
 }
 
+h1{
+
+}
 .introductory-text{
     padding-left: 50px;
     font-family: sans-serif;
@@ -90,28 +93,50 @@ body{
     margin-left: 250px;
     text-align: left;
     max-width: 350px;
+    font-size: 14px;
 }
 
 .learning-by-doing{
-    text-align: center;
+    margin-left: 620px;
     margin-top: -97px;
     font-size: 20px;
 }
 
 .learning-by-doing-text{
     text-align: left;
-    margin-left: 660px;
+    margin-left: 620px;
     max-width: 350px;
+    font-size: 14px;
 }
 
 .talent-development{
-    margin-left: 1050px;
-    margin-top: -93px;
+    margin-left: 920px;
+    margin-top: -90px;
     font-size: 20px;
 }
 
 .talent-development-text{
     text-align: left;
-    margin-left: 1050px;
+    margin-left: 920px;
     max-width: 350px;
+    font-size: 14px;
+}
+
+.our-vision-in-openlab{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 250px;
+}
+
+.our-vision-in-openlab-text{
+    font-size: 16px;
+    margin-left: 50px;
+    color: #566b8d;
+    
+}
+
+.img-vision-in-openlab{
+    padding-left: 900px;
+    margin-top: -300px;
+    max-width: 500px;
 }
