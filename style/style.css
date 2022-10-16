@@ -10,6 +10,30 @@ body{
     background-color: #3597ff;
 }
 
+.discord-bar-text{
+    padding-left: 450px;
+    font-size: 14px;
+}
+
+.discord-button{
+    padding-left: 900px;
+    margin-top: -34px;
+    
+}
+
+
+
+.mainlogo {
+    margin-top: 50px;
+}
+
+
+.mainbar{
+    margin-left: 250px;
+    margin-top: -35px;
+}
+
+
 .main-text{
     padding-left: 50px;
     font-family: sans-serif;
@@ -71,10 +95,6 @@ body{
     margin-top: -200px;
 }
 
-.work-with-us{
-    background-color: rgba(4, 111, 250, 0.774);
-    margin-top: - 10px;
-}
 
 /* Why openlab */
 
@@ -168,7 +188,26 @@ body{
     padding-left: 100px;
 }
 
-.fs{
+.fs20{
     font-size: 20px;
 }
 
+.textcolor{
+    color: #566b8d;
+}
+
+.hybridlab{
+    padding-left: 500px;
+    margin-top: -150px;
+}
+
+
+.gameslab{
+    padding-left: 800px;
+    margin-top: -197px;
+}
+
+.appslab{
+    padding-left: 1100px;
+    margin-top: -217px;
+}
