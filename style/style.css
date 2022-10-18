@@ -6,6 +6,23 @@ body{
     overflow-y: scroll;
 }
 
+/* global classes */
+
+.fs20 {
+    font-size: 20px;
+}
+
+.fw700 {
+    font-weight: 700 !important;
+}
+
+.fw300 {
+    font-weight: 300 !important;
+}
+
+
+/* main page */
+
 .main-page{
     background-color: #3597ff;
 }
@@ -42,13 +59,6 @@ body{
     color: White;
 }
 
-.fw700{
-    font-weight: 700 !important;
-}
-
-.fw300{
-    font-weight: 300 !important;
-}
 
 
 .introductory-text{
@@ -68,7 +78,6 @@ body{
 }
 
 
-/* main screen */
 
 .main-picture{
     max-width: 600px;
@@ -164,6 +173,10 @@ body{
     font-size: 14px;
 }
 
+/* Our vision in openlab */
+
+
+
 .our-vision-in-openlab{
     font-size: 40px;
     margin-left: 50px;
@@ -184,6 +197,9 @@ body{
     max-width: 500px;
 }
 
+/* Which labs can you study */
+
+
 .which-labs-can-you-study{
     font-size: 40px;
     margin-top: 100px;
@@ -191,9 +207,6 @@ body{
     font-weight: 100;
 }
 
-.fs20{
-    font-size: 20px;
-}
 
 .textcolor{
     color: #566b8d;
