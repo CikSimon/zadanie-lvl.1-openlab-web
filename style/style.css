@@ -106,6 +106,7 @@ body{
 
 
 /* Why openlab */
+/* FLEBOX */
 
 .why-openlab {
     text-align: center;
@@ -131,46 +132,15 @@ body{
     padding-left: 225px;
 }
 
-.social-development {
-    margin-left: 250px;
-    margin-top: 50px;
-    font-size: 20px;
-
+.whyopenlab-items-container{
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
 }
 
-
-
-.social-development-text{
-    margin-left: 250px;
-    text-align: left;
-    max-width: 350px;
-    font-size: 14px;
-}
-
-.learning-by-doing{
-    margin-left: 575px;
-    margin-top: -97px;
-    font-size: 20px;
-}
-
-.learning-by-doing-text{
-    text-align: left;
-    margin-left: 575px;
-    max-width: 350px;
-    font-size: 14px;
-}
-
-.talent-development{
-    margin-left: 895px;
-    margin-top: -90px;
-    font-size: 20px;
-}
-
-.talent-development-text{
-    text-align: left;
-    margin-left: 895px;
-    max-width: 350px;
-    font-size: 14px;
+.whyopenlab-items-container li{
+    margin-right: 30px;
+    list-style: none;
 }
 
 /* Our vision in openlab */
@@ -202,28 +172,18 @@ body{
 
 .which-labs-can-you-study{
     font-size: 40px;
-    margin-top: 100px;
-    padding-left: 100px;
-    font-weight: 100;
 }
 
-
-.textcolor{
-    color: #566b8d;
+.which-labs-can-you-study-container{
+    display: flex;
 }
 
-.hybridlab{
-    padding-left: 500px;
-    margin-top: -150px;
+.flex-labs{
+    display: flex;
 }
 
-
-.gameslab{
-    padding-left: 800px;
-    margin-top: -197px;
+.flex-labs li{
+    margin-right: 100px;
+    list-style: none;
 }
 
-.appslab{
-    padding-left: 1100px;
-    margin-top: -217px;
-}

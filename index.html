@@ -32,15 +32,16 @@
 
     <img class="mainlogo" src="/_img/openlab-logo.jpg" alt="logo">
     
-<ul class="mainbar">
-    <a class="nav-link" href="">Úvod</a>
-    <a class="nav-link" href="">OpenLab</a>
-    <a class="nav-link" href="">Pre Učiteľov</a>
-    <a class="nav-link" href="">Partneri</a>
-    <a class="nav-link" href="">Moderná škola</a>
-
-</ul>
-        
+<nav>
+    <ul class="mainbar">
+        <a class="nav-link" href="">Úvod</a>
+        <a class="nav-link" href="">OpenLab</a>
+        <a class="nav-link" href="">Pre Učiteľov</a>
+        <a class="nav-link" href="">Partneri</a>
+        <a class="nav-link" href="">Moderná škola</a>
+    </ul>
+</nav>
+    
       
 <div class="main-page">
     <section>   
@@ -89,31 +90,38 @@
         <img class="why-openlab-imgs" src="./_img/why-openlab-imgs.jpg" alt="why-openlab-imgs">
     </div>
         <div>
-            <p class="social-development">
-                <strong>
-                    Celospoločenský rozvoj
-                </strong>
-            <p class="social-development-text">
-                Osnovy aj učebné materiály pre všetky tech  <br>
-                oblasti sú open source. <br>
-            </p>
-            
-            <p class="learning-by-doing">
-                <strong>
-                    Učenie praxou
-                </strong>
-            <p class="learning-by-doing-text">
-                Študentov vedieme k tímovému riešeniu <br>
-                            problémov. <br>
-            </p>
-            <p class="talent-development">
-                <strong>
-                    Rozvoj talentu
-                </strong>
-            <p class="talent-development-text">
-                Vytvárame šikovné tímy schopné riešiť veľké <br>
-                        problémy. <br> </p>
-            </p>
+            <ul class="whyopenlab-items-container"> 
+                <li>
+                    <p class="social-development">
+                        <strong>
+                            Celospoločenský rozvoj
+                        </strong>
+                    <p class="social-development-text">
+                        Osnovy aj učebné materiály pre všetky tech  <br>
+                        oblasti sú open source. <br>
+                    </p>
+                </li>
+                <li>  
+                    <p class="learning-by-doing">
+                        <strong>
+                            Učenie praxou
+                        </strong>
+                    <p class="learning-by-doing-text">
+                        Študentov vedieme k tímovému riešeniu <br>
+                                    problémov. <br>
+                    </p>
+                </li>
+                <li>
+                    <p class="talent-development">
+                        <strong>
+                            Rozvoj talentu
+                        </strong>
+                    <p class="talent-development-text">
+                        Vytvárame šikovné tímy schopné riešiť veľké <br>
+                                problémy. <br> </p>
+                    </p>
+                </li>
+            </ul>
         </div>
 </div>
 <div>
@@ -145,66 +153,76 @@
 
 </div>
 
-<div>
-    <section>
-        <h4 class="which-labs-can-you-study">
-            V akých laboch <br>
-            <strong>
-                možeš študovať?
-            </strong> <br>
-        </h4>
-    </section>
-</div>
-<div>
-    <div class="hybridlab">   
-        <div class="fs20">
-            <strong>Hybrid</strong>Lab <br>
-        </div>
+
+<div class="which-labs-can-you-study-container">
+    <div>
+        <section>
+            <h4 class="which-labs-can-you-study">
+                V akých laboch <br>
+                <strong>
+                    možeš študovať?
+                </strong> <br>
+            </h4>
+        </section>
+    </div>
         
-        <p class="hybridlab-text textcolor">
-            Študenti sa učia vyvýjať <br>
-            hybridné aplikácie v <br>
-            HTML, PHP, CSS, <br>
-            JavaScript, Ionicu, Vue a <br>
-            OctoberCMS. <br>
-        </p>
+    <ul class="flex-labs">
+        <li> 
+            <div>
+                <div class="hybridlab">   
+                    <div class="fs20">
+                        <strong>Hybrid</strong>Lab <br>
+            </div>
+                    
+                    <p class="hybridlab-text textcolor">
+                        Študenti sa učia vyvýjať <br>
+                        hybridné aplikácie v <br>
+                        HTML, PHP, CSS, <br>
+                        JavaScript, Ionicu, Vue a <br>
+                        OctoberCMS. <br>
+                    </p>
 
-        <img class="arrow1" src="./_img/arrow.jpg" alt="arrow">
+                    <img class="arrow1" src="./_img/arrow.jpg" alt="arrow">
 
-    </div>
+                </div>
+        </li>
 
-    <div class="gameslab">
-        <div class="fs20">
-        <strong>Games</strong>Lab <br>
+        <li>
+            <div class="gameslab">
+                <div class="fs20">
+                <strong>Games</strong>Lab <br>
+                </div>
+                <p class="gameslab-text textcolor">
+                    Študenti vyvíjajú mobilné <br>
+                    hry v Unity a GDevelop, <br>
+                    učia sa tvoriť 2D grafiku v <br>
+                    programe Piskel, 3D <br>
+                    grafiku v programe Blender <br>
+                    a herný dizajn. <br>
+                </p>
+                <img class="arrow2" src="./_img/arrow.jpg" alt="arrow">
+
+            </div>
+        </li>
+        <li>
+            <div class="appslab">
+                <div class="fs20">
+                    <strong>Apps</strong>Lab <br>
+                </div>
+                <p class="appslab-text textcolor">
+                    Študenti sa učia vyvýjať <br>
+                    mobilné aplikácie v C# a <br>
+                    Xamarin.forms a webové <br>
+                    aplikácie v Java a Angular <br>
+                    JS. <br>
+                </p>
+                <img class="arrow3" src="./_img/arrow.jpg" alt="arrow">
+
+            </div>
+        </li>
         </div>
-        <p class="gameslab-text textcolor">
-            Študenti vyvíjajú mobilné <br>
-            hry v Unity a GDevelop, <br>
-            učia sa tvoriť 2D grafiku v <br>
-            programe Piskel, 3D <br>
-            grafiku v programe Blender <br>
-            a herný dizajn. <br>
-        </p>
-        <img class="arrow2" src="./_img/arrow.jpg" alt="arrow">
-
-    </div>
-
-    <div class="appslab">
-        <div class="fs20">
-            <strong>Apps</strong>Lab <br>
-        </div>
-        <p class="appslab-text textcolor">
-            Študenti sa učia vyvýjať <br>
-            mobilné aplikácie v C# a <br>
-            Xamarin.forms a webové <br>
-            aplikácie v Java a Angular <br>
-            JS. <br>
-        </p>
-        <img class="arrow3" src="./_img/arrow.jpg" alt="arrow">
-
-    </div>
+    </ul>
 </div>
-   
 
 </body>
 </html>

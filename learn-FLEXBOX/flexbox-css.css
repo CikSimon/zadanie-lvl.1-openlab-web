@@ -1,0 +1,32 @@
+.header-container{
+    display: flex;
+    background-color: burlywood;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: brown;
+    justify-content: flex-end;
+}
+
+.nav-container{
+    flex: 3;
+}
+
+.title{
+    background-color: aqua;
+    flex: 1;
+
+}
+
+.nav-bar li{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-bar:last-child{
+    margin-right: 20px;
+}
+.nav-bar li a{
+    text-decoration: none;
+}
