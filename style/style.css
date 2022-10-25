@@ -21,6 +21,9 @@ body{
 }
 
 
+
+
+
 /* main page */
 
 .main-page{
@@ -200,7 +203,7 @@ body{
 
 .school1{
     max-width: 500px;
-    margin-right: 30px;
+    margin-right: 90px;
 }
 
 .school2{
@@ -218,6 +221,41 @@ body{
 }
 
 .school1-text{
-    margin-right: 300px;
-    margin-left: 200px;
+    margin-right: 200px;
+    margin-left: 160px;
+}
+
+.school-images-text-container1{
+    display: flex;
+}
+
+.school-images-text-container2{
+    display: flex;
+}
+
+/* < !-- 
+section 
+Chceš ísť študovať odbor 
+kompletne zameraný na IT? --> */
+
+.p-letter{
+    max-width: 450px;
+    margin-left: 1200px;
+    margin-top: -200px;
+}
+
+
+h6{
+    font-size: 37px;
+    margin-top: -200px;
+    padding-left: 50px;
+}
+
+.under-h6-text{
+    padding-left: 50px;
+    
+}
+
+.greycolor{
+    color: 566B8D;
 }
