@@ -1,0 +1,45 @@
+.p-letter {
+    max-width: 450px;
+    margin-left: 1200px;
+    margin-top: -200px;
+}
+
+
+h6 {
+    font-size: 37px;
+    margin-top: -200px;
+    padding-left: 50px;
+}
+
+.under-h6-text {
+    padding-left: 50px;
+
+}
+
+.greycolor {
+    color: #566B8D;
+}
+
+.i-want-to-know-more {
+    background-color: #3597ff;
+    font-size: 20px;
+    color: white;
+    max-width: 200px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.bg-color-grey {
+    background-color: #dddddd;
+}
+
+.main-picture2 {
+    max-width: 700px;
+    margin-top: -350px;
+    margin-left: 600px;
+}
