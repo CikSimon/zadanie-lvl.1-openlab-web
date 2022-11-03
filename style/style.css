@@ -20,6 +20,9 @@ body{
     font-weight: 300 !important;
 }
 
+.mw300{
+    max-width: 300px;
+}
 
 
 
@@ -308,4 +311,31 @@ h6{
 .realtopia-text{
     max-width: 500px;
 
+}
+
+/* next section */
+.what-makes-us-special{
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+}
+
+.what-makes-us-special-line1{
+    display: flex;
+    margin-top: 50px;
+}
+.what-makes-us-special-line2{
+    display: flex;
+    margin-top: 50px;
+}
+
+/* next section */
+.get-to-know-us{
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+}
+
+.get-to-know-us-line1{
+    display: flex;
 }
