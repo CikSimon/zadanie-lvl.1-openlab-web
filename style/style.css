@@ -248,7 +248,7 @@ body{
 
 /* < !-- 
 section 
-Čo si myslia o OpenLabe študenti?
+what-students-think-about-us
 --> */
 
 .students3_img{
@@ -260,6 +260,8 @@ h6{
     font-size: 40px;
     font-weight: 100;
 }
+
+/* join us */
 
 .h7{
     font-size: 40px;
@@ -273,6 +275,8 @@ h6{
     text-align: left;
     margin-top: 20px;
 }
+
+/* students-in-openlab */
 
 .students-in-openlab-box{
     background-color: orange;
@@ -288,6 +292,8 @@ h6{
     margin-left: 600px;
 
 }
+
+/* students-projects */
 
 .students-projects{
     font-weight: 100;
@@ -313,7 +319,8 @@ h6{
 
 }
 
-/* next section */
+/* what-makes-us-special */
+
 .what-makes-us-special{
     font-weight: 100;
     font-size: 40px;
@@ -329,7 +336,8 @@ h6{
     margin-top: 50px;
 }
 
-/* next section */
+/* get-to-know-us */
+
 .get-to-know-us{
     font-weight: 100;
     font-size: 40px;
@@ -337,5 +345,38 @@ h6{
 }
 
 .get-to-know-us-line1{
+    display: flex;
+}
+.get-to-know-us-line2 {
+    display: flex;
+}
+
+/* help us */
+
+.help-us-container{
+    display: flex;
+}
+
+.help-us-img{
+    max-width: 700px;
+}
+
+.help-us{
+    font-size: 40px;
+}
+
+.help-us-text{
+    max-width: 700px;
+}
+
+
+/* who-stands-behind-openlab */
+
+.who-stands-behind-openlab{
+    font-size: 40px;
+    
+}
+
+.who-stands-behind-openlab-container{
     display: flex;
 }
