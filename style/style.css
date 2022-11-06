@@ -175,6 +175,59 @@ body{
     max-width: 500px;
 }
 
+.our-vision-in-openlab-box{
+    margin-left: 900px;
+    margin-top: -100px;
+}
+
+.oviob-line1{
+    display: flex;
+}
+
+.oviob-line2{
+    display: flex;
+}
+
+.classes6{
+    margin-right: 75px;
+    margin-bottom: 20px;
+    background-color: #3597ff;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    color: white;
+    font-size: 40px;
+    
+    
+}
+
+.students267{
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    color: white;
+    font-size: 40px;
+}
+
+.labmasters12{
+    margin-right: 20px;
+    background-color: rgb(228, 228, 18);
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    color: white;
+    font-size: 40px;
+}
+
+.schools2{
+    background-color:  red;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    color: white;
+    font-size: 40px;
+}
 /* Which labs can you study */
 
 
@@ -183,11 +236,13 @@ body{
     margin-left: 90px;
     font-weight: 100;
     
+    
 }
 
 .which-labs-can-you-study-container{
     display: flex;
     margin-top: 40px;
+    
 }
 
 .flex-labs{
