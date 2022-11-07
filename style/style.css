@@ -435,3 +435,26 @@ h6{
 .who-stands-behind-openlab-container{
     display: flex;
 }
+
+/* moderna skola */
+
+.modern-school{
+    font-size: 40px;
+
+}
+
+.links-container{
+    display: flex;
+    list-style: none;
+}
+
+.modern-school-buton{
+    width: 100px;
+    height: 50px;
+    background-color: #3597ff;
+    border-radius: 5%;
+}
+
+.skyro{
+    max-width: 500px;
+}
