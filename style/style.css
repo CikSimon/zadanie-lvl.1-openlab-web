@@ -150,6 +150,17 @@ body{
     margin-right: 30px;
     list-style: none;
 }
+.social-development-text{
+    max-width: 250px;
+}
+
+.learning-by-doing-text{
+    max-width: 250px;
+}
+
+.talent-development-text{
+    max-width: 250px;
+}
 
 /* Our vision in openlab */
 
@@ -166,6 +177,7 @@ body{
     font-size: 16px;
     margin-left: 50px;
     color: #566b8d;
+    max-width: 500px;
     
 }
 
@@ -255,6 +267,17 @@ body{
     list-style: none;
 }
 
+.hybridlab-text{
+    max-width: 150px;
+}
+.gameslab-text{
+    max-width: 150px;
+}
+
+.appslab-text{
+    max-width: 150px;
+}
+
 /* we-are-on-two-schools */
 
 .we-are-on-two-schools{
@@ -323,6 +346,7 @@ h6{
     font-weight: 100;
     text-align: center;
     margin-top: 60px;
+    max-width: 500px;
 }
 
 .we-are-all-openlab{
@@ -330,7 +354,19 @@ h6{
     text-align: left;
     margin-top: 20px;
 }
+.labmasters{
+    max-width: 170px;
+}
 
+.companies{
+    max-width: 170px;
+}
+.schools-waao{
+    max-width: 170px;
+}
+.students-waao{
+    max-width: 170px;
+}
 /* students-in-openlab */
 
 .students-in-openlab-box{
@@ -339,6 +375,7 @@ h6{
     height: 400px;
     border: 2px solid rgb(172, 115, 10);
     border-radius: 12px;
+    
 }
 
 .samo{
@@ -457,4 +494,16 @@ h6{
 
 .skyro{
     max-width: 500px;
+}
+/* 
+thank-you-for-your-support */
+
+.support1{
+    display: flex;
+    max-width: 100px;
+}
+
+.support2 {
+    display: flex;
+    max-width: 100px;
 }
