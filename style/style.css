@@ -33,35 +33,44 @@ body{
 
 /* main page */
 
+
 .main-page{
     background-color: #3597ff;
 }
 
-.discord-bar-text{
-    padding-left: 450px;
-    font-size: 14px;
+.discord-panel-container{
+    display: flex;
+    margin-left: 400px;
 }
 
-.discord-button{
-    padding-left: 900px;
-    margin-top: -34px;
-    
+.discord-panel-buton-container{
+    display: flex;
 }
 
-
-
-
-
-.mainlogo {
-    margin-top: 50px;
+.discord-link{
+    margin-left: 100px;
 }
 
+.border-bottom{
+    border-bottom: solid 1px #3597ff;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-bar-container{
+    display: flex;
+}
 
 .mainbar{
-    margin-left: 250px;
-    margin-top: -35px;
+    display: flex;
+    text-decoration: none;
 }
 
+.nav-link{
+    margin-left: 50px;
+    
+}
 
 .main-text{
     padding-left: 50px;
