@@ -5,32 +5,6 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
 }
-
-/* global classes */
-
-.fs20 {
-    font-size: 20px;
-}
-
-.fw700 {
-    font-weight: 700 !important;
-}
-
-.fw300 {
-    font-weight: 300 !important;
-}
-
-.mw300{
-    max-width: 300px;
-}
-
-.mw100{
-    max-width: 100px;
-}
-
-
-
-
 /* main page */
 
 
@@ -45,11 +19,17 @@ body{
 
 .discord-panel-buton-container{
     display: flex;
+    background-color: rgba(194, 194, 194, 0.884);
+    margin-left: 100px;
+    text-align: center;
+    border-radius: 5%;
+    
 }
 
 .discord-link{
-    margin-left: 100px;
+    margin-top: 5px;
 }
+
 
 .border-bottom{
     border-bottom: solid 1px #3597ff;
@@ -64,11 +44,12 @@ body{
 
 .mainbar{
     display: flex;
-    text-decoration: none;
+    
 }
 
 .nav-link{
     margin-left: 50px;
+    text-decoration: none;
     
 }
 
@@ -144,35 +125,34 @@ body{
     margin-left: auto;
     margin-right: auto;
     color: #566B8D;
-    font-size: 16px;
+    font-size: 17px;
     font-family: sans-serif;
+    margin-top: 60px;
 }
 
-.why-openlab-imgs {
-    max-width: 750px;
-    padding-left: 225px;
-}
+
 
 .whyopenlab-items-container{
     display: flex;
     margin-left: 200px;
+    margin-top: 100px;
     align-items: center;
 }
 
 .whyopenlab-items-container li{
-    margin-right: 30px;
+    margin-right: 60px;
     list-style: none;
 }
 .social-development-text{
-    max-width: 250px;
+    max-width: 300px;
 }
 
 .learning-by-doing-text{
-    max-width: 250px;
+    max-width: 300px;
 }
 
 .talent-development-text{
-    max-width: 250px;
+    max-width: 300px;
 }
 
 /* Our vision in openlab */
