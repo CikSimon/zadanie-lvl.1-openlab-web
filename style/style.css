@@ -40,6 +40,7 @@ header */
 
 .mainbar{
     display: flex;
+    list-style-type: none;
     
 }
 
@@ -99,7 +100,8 @@ header */
 .why-openlab {
     text-align: center;
     font-size: 40px;
-    font-weight: 100;margin-top: 100px;
+    font-weight: 100;
+    margin-top: 100px;
 
 
 }
@@ -179,44 +181,68 @@ header */
 }
 
 .classes6{
-    margin-right: 75px;
+    margin-right: 20px;
     margin-bottom: 20px;
-    background-color: #3597ff;
-    width: 200px;
-    height: 200px;
-    border-radius: 5%;
-    color: white;
-    font-size: 40px;
-    
-    
+    background-color: rgba(221, 236, 251, 0.4);
+    width: 230px;
+    height: 180px;
+    border-radius: 2%;
+    color: #5b94d7;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.classes6-number{
+    font-size: 70px;
+    margin-top: 60px;
 }
 
 .students267{
-    background-color: greenyellow;
-    width: 200px;
-    height: 200px;
-    border-radius: 5%;
-    color: white;
-    font-size: 40px;
+    background-color: rgba(156, 238, 204, 0.4);
+    width: 230px;
+    height: 180px;
+    border-radius: 2%;
+    color: #5cc19a;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }
+.students267-number{
+    font-size: 70px;
+    margin-top: 60px;
+}
+
 
 .labmasters12{
     margin-right: 20px;
-    background-color: rgb(228, 228, 18);
-    width: 200px;
-    height: 200px;
-    border-radius: 5%;
-    color: white;
-    font-size: 40px;
+    background-color: rgba(238, 226, 156, 0.4);
+    width: 230px;
+    height: 180px;
+    border-radius: 2%;
+    color: #dbca68;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+.labmasters12-number{
+    font-size: 70px;
+    margin-top: 60px;
 }
 
 .schools2{
-    background-color:  red;
-    width: 200px;
-    height: 200px;
-    border-radius: 5%;
-    color: white;
-    font-size: 40px;
+    background-color: rgba(238, 156, 156, 0.4);
+    width: 230px;
+    height: 180px;
+    border-radius: 2%;
+    color: #b95e73;
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+.schools2-number{
+    font-size: 70px;
+    margin-top: 60px;
 }
 /* Which labs can you study */
 
@@ -522,12 +548,3 @@ thank-you-for-your-support */
 
 /* footer */
 
-.footer{
-    display: flex;
-    margin-left: -600px;
-}
-
-.footer-text{
-    margin-left: -100px;
-    margin-top: 300px;
-}
