@@ -662,30 +662,82 @@ header */
 
 .who-stands-behind-openlab{
     font-size: 40px;
+    max-width: 400px;
+    margin-left: 90px;
     
 }
 
 .who-stands-behind-openlab-container{
+    margin-top: 200px;
     display: flex;
+}
+
+.who-stands-behind-openlab-logos{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+.logs_img1{
+    margin-left: 100px;
+}
+
+.logs_img{
+    margin-right: 60px;
+    width: 200px;
+    
 }
 
 /* moderna skola */
 
 .modern-school{
     font-size: 40px;
+    max-width: 450px;
+    margin-left: 100px;
+}
+.modern-school-text{
+    color: #566b8d;
+    font-size: 17px;
+    margin-left: 100px;
+    max-width: 500px;
+}
 
+.modern-school-container{
+    display: flex;
+    margin-top: 150px;
+}
+.skyro{
+    margin-left: 200px;
+    
+    
 }
 
 .links-container{
     display: flex;
     list-style: none;
+    margin-left: 60px;
+}
+.links-container li{
+    margin-right: 15px;
+}
+.modern-s-buton{
+    background-color: #3597ff;
+    height: 50px;
+    width: 180px;
+    margin-left: 100px;
+    border-radius: 10%;
 }
 
 .modern-school-buton{
-    width: 100px;
-    height: 50px;
-    background-color: #3597ff;
-    border-radius: 5%;
+    width: 200px;
+    height: 100px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 25px;
+    
 }
 
 .skyro{
@@ -695,19 +747,28 @@ header */
 thank-you-for-your-support */
 
 .thank-you-for-your-support-title {
-    font-size: 40px
+    font-size: 40px;
+    text-align: center;
 }
 
 .support1{
     display: flex;
-    
+    justify-content: center;
+}
+
+.support1 img{
+    margin-right: 70px;
 }
 
 .support2 {
     display: flex;
+    justify-content: center;
     
 }
 
+.support2 img{
+    margin-right: 70px;
+}
 /* last section */
 
 
@@ -731,12 +792,32 @@ thank-you-for-your-support */
 
 .write-email{
     background-color: white;
-    width: 200px;
+    width: 600px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 230px;
 }
 
 
 
 /* footer */
+
+.footer-flex{
+    display: flex;
+}
+
+.openlab-logo-footer{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.footer-text1{
+    margin-left: 100px;
+    
+}
+.footer-text2{
+    margin-left: 100px;
+}
+.footer-text3{
+    margin-left: 100px;
+}
 
