@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+    <div class="main">  
+        <div>
+            <img class="openlab-logo" src="./_img/openlab-logo.svg" alt="">
+        </div>
+        <div>  
+            <form action="action.html" method="get">
+                <div> 
+                    <label for="name">Meno:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div>
+                    <label for="password">Heslo:</label>
+                    <input type="text" name="password" id="password">
+                </div>
+                <div class="male-female">   
+                    <p>
+                        Pohlavie:
+                    </p>
+                    <div>
+                        <label for="male">muž</label>
+                        <input type="radio" name="gander" id="male" value="male">
+                    </div>
+                    <div>
+                        <label for="female">žena</label>
+                        <input type="radio" name="gander" id="female" value="female">
+                    </div>
+                    <div>
+                        <label for="mutant">mutant</label>
+                        <input type="radio" name="gander" id="mutant">
+                    </div>
+                    <div>
+                        <label for="dont-know">neviem sa rozhodnúť</label>
+                        <input type="radio" name="gander" id="dont-know">
+                    </div>
+                </div>
+                <div class="button-flex">  
+                    <div>
+                        <button class="button1" type="reset">Reset</button>
+                    </div>
+                    <div>
+                        <button type="submit">Odoslať</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
