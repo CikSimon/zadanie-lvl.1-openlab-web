@@ -2,6 +2,7 @@
 body{
     font-size: 30px;
     font-family: sans-serif;
+    background-color: #0679f437;
 }
 
 .openlab-logo{
@@ -24,4 +25,15 @@ body{
 
 .button1{
     margin-right: 50px;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gander{
+    font-weight: bold;
+    font-size: 19px;
 }
