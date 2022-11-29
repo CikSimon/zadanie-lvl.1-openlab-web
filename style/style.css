@@ -11,7 +11,7 @@ header */
 .discord-panel-container{
     display: flex;
     margin-left: 400px;
-    margin-top: 20px;
+    
     
 }
 
@@ -22,8 +22,18 @@ header */
     border-radius: 50rem;
     width: 180px;
     height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
     
     
+}
+
+
+.discord-main-logo{
+    margin-top: 7px;
+    margin-left: 2px;
+
 }
 
 .discord-link{
@@ -38,6 +48,7 @@ header */
 
 .discord-panel-text {
     font-size: 14px;
+    margin-top: 7px;
 }
 
 
